@@ -790,8 +790,28 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
   <!-- Google Maps -->
   <script src="https://maps.google.com/maps/api/js"></script>
 
-  <script src="js/main.js"></script>
+    <script>
+    // initialize scrollspy
+    $('body').scrollspy({
 
+      target: '.dotted-scrollspy'
+    });
+
+    // initialize lightbox
+    $(function () {
+
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+
+    $('.navbar-collapse a').click(function () {
+
+      $(".navbar-collapse").collapse('hide');
+    });
+
+    /* WOW.js init */
+    new WOW().init();
+
+  </script>
 
 </body>
 

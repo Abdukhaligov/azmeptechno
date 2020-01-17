@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="" />
+    <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,14 +15,25 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Abdukhaligov &lt;hikmat.pou@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WWtbmJbo1J9loUPpR3IU2W6HUL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ServiceViewManager">
@@ -44,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579277252559</updated>
-      <workItem from="1579277256101" duration="8444000" />
+      <workItem from="1579277256101" duration="12247000" />
     </task>
     <servers />
   </component>
@@ -52,6 +66,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="728" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579298133268">
+      <screen x="76" y="0" width="1844" height="1080" />
+    </state>
+    <state x="728" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579298133268" />
+    <state x="623" y="135" key="CommitChangelistDialog2" timestamp="1579298293394">
+      <screen x="76" y="0" width="1844" height="1080" />
+    </state>
+    <state x="623" y="135" key="CommitChangelistDialog2/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579298293394" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1579278026483">
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
