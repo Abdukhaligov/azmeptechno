@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="Product page (some fixes)">
       <change beforePath="$PROJECT_DIR$/site/templates/_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/templates/_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/templates/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/templates/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebProjects\.local\azmeptechno\site\templates\styles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WebProjects\.local\azmeptechno" />
     </key>
@@ -64,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579277252559</updated>
       <workItem from="1579277256101" duration="12927000" />
-      <workItem from="1579350166960" duration="4403000" />
+      <workItem from="1579350166960" duration="4721000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <created>1579298310401</created>
