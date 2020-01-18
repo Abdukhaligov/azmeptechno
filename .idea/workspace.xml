@@ -1,9 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="">
+    <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="Product page (some fixes)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/datatables-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/datatables-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/directives.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/directives.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/flag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/flag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/rating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/rating.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/zmd.hierarchical-display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addons/zmd.hierarchical-display.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/animations-extended.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/animations-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-slider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/layer1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/layer2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lightbox/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lightbox/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lightbox/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/overlays/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/chat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/multi-range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/multi-range.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/stepper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/stepper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/steppers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/steppers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons-pro/timeline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/jquery.zmd.hierarchical-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/jquery.zmd.hierarchical-display.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/progressBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/progressBar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/addons/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mdb.lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mdb.lite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/datatables-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/datatables-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/jquery.zmd.hierarchical-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/jquery.zmd.hierarchical-display.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/progressBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/progressBar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/addons/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/bs-custom-file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/cards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/character-counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/chips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/collapsible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/enhanced-modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/file-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/forms-free.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/jarallax-video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/jarallax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/jquery.easypiechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/material-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/mdb-autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/picker-date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/picker-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/preloading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/range-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/scrolling-navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/sidenav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/smooth-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/tests/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/toastr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/velocity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modules/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdb-addons/mdb-lightbox-ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mdb-addons/preloader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_custom-skin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_custom-styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_custom-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_datatables-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_datatables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_directives.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_flags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_hierarchical-display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/addons/_rating.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_masks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/_waves.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/bootstrap/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/core/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_animations-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_carousels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_depreciated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_loader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_msc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_steppers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/_treeview.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mdb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/portfolio/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_accordion-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_cards-basic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_carousels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_depreciated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_ecommerce.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_lightbox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_msc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_parallax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_scrollspy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_skins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/modules/accordion-extended/_module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/sections/_contacts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/sections/_pricing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/sections/_team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/sections/_templates.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pro/sections/_testimonials.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +278,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579277252559</updated>
       <workItem from="1579277256101" duration="12927000" />
-      <workItem from="1579350166960" duration="2111000" />
+      <workItem from="1579350166960" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <created>1579298310401</created>
@@ -81,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579351473313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Product page (some fixes)">
+      <created>1579352363201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579352363201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Integration to PW">
+      <created>1579372389431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579372389431</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ProcessWire CMS">
+      <created>1579373338989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579373338989</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +324,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixes" />
     <MESSAGE value="Adding Products" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Products" />
+    <MESSAGE value="Product page (some fixes)" />
+    <MESSAGE value="Integration to PW" />
+    <MESSAGE value="ProcessWire CMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProcessWire CMS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="728" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579298133268">
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
     <state x="728" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579298133268" />
-    <state x="623" y="135" key="CommitChangelistDialog2" timestamp="1579352361340">
+    <state x="623" y="7" width="848" height="1049" key="CommitChangelistDialog2" timestamp="1579373336970">
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
-    <state x="623" y="135" key="CommitChangelistDialog2/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579352361340" />
+    <state x="623" y="7" width="848" height="1049" key="CommitChangelistDialog2/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579373336970" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1579278026483">
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
