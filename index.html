@@ -19,7 +19,7 @@
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 </head>
 
-<body class="legal">
+<body>
 
   <!-- Navigation & Intro -->
   <header>
@@ -42,7 +42,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
               <a class="nav-link" href="#services" data-offset="90">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#products" data-offset="90">Product</a>
+              <a class="nav-link" href="#products" data-offset="90">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects" data-offset="90">Projects</a>
@@ -501,7 +501,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -559,7 +559,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -617,7 +617,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -675,7 +675,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -733,7 +733,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -791,7 +791,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -849,7 +849,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -907,7 +907,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="row mb-0">
 
-                      <button class="btn btn-danger m-auto" >Read More</button>
+                      <button class="btn btn-danger btn-sm m-auto" >Read More</button>
 
                     </div>
 
@@ -952,6 +952,32 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
           sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad
           voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam minima
           assumenda deleniti.</p>
+
+        <div class="row">
+          <!-- Second column -->
+          <div class="col-md-12 mt-5 mb-5">
+
+            <div class="swiper-container swiper-container-projects col-md-12">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide partner">
+                  <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/142_Github_logo_logos-512.png">
+                </div>
+                <div class="swiper-slide partner">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png">
+                </div>
+                <div class="swiper-slide partner">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg">
+                </div>
+                <div class="swiper-slide partner">
+                  <img src="https://www.kindpng.com/picc/m/1-12327_aws-amazon-logo-amazon-web-services-hd-png.png">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+          <!-- Second column -->
+        </div>
 
       </section>
       <!-- Section: Portfolio -->
@@ -1233,10 +1259,23 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
     <!-- Second container -->
 
-
+    </div>
 
     <script>
       var swiperPartners = new Swiper('.swiper-container-partners', {
+        spaceBetween: 10,
+        loop: true,
+        slidesPerView: "auto",
+        breakpoints: {
+          640: {slidesPerView: 2, spaceBetween: 20,},
+          768: {slidesPerView: 3, spaceBetween: 40,},
+          1024: {slidesPerView: 4, spaceBetween: 50,},
+          1600: {slidesPerView: 4, spaceBetween: 50,},
+        },
+        autoplay: {delay: 2500}
+      });
+
+      var swiperProjects = new Swiper('.swiper-container-projects', {
         spaceBetween: 10,
         loop: true,
         slidesPerView: "auto",
