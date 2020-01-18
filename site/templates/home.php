@@ -94,9 +94,32 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                 <div class="">
             <span>
-              <a class="black-text font-bold" href="#">AZ</a>
-              <span class="red-text font-bold"> / </span>
-              <a class="red-text font-bold" href="#">EN</a>
+
+                <?php
+                    $c = 0;
+                    foreach($languages as $language) {
+
+                        if(!$page->viewable($language)) continue; // is page viewable in this language?
+
+                        $url = $page->localUrl($language);
+                        $hreflang = $homepage->getLanguageValue($language, 'name');
+
+                        if($c == 1){
+                            echo "<span class='red-text font-bold'> / </span>";
+                        }
+                        
+                        if($language->id == $user->language->id) {
+                            echo "<a class='red-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
+
+                        } else {
+                            echo "<a class='black-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
+                        }
+
+
+                        $c++;
+                    }
+                ?>
+
             </span>
                 </div>
 
