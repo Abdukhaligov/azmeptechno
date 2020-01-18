@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="<?php echo _x('en', 'HTML language code'); ?>">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $page->summary; ?>" />
-    <link href="//fonts.googleapis.com/css?family=Lusitana:400,700|Quattrocento:400,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
+    <title><?php echo $title; ?></title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $config->urls->templates?>styles/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $config->urls->templates?>/styles/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="<?php echo $config->urls->templates?>styles/mdb.min.css" rel="stylesheet">
+    <link href="<?php echo $config->urls->templates?>/styles/mdb.min.css" rel="stylesheet">
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link href="<?php echo $config->urls->templates?>/styles/main.css" rel="stylesheet">
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="<?php echo $config->urls->templates?>styles/bootstrap.min.css" rel="stylesheet">
+
     <?php
 
     // handle output of 'hreflang' link tags for multi-language
@@ -54,25 +55,25 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto smooth-scroll">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" data-offset="90">About us</a>
+                        <a class="nav-link" href="#about" data-offset="90"><?=__('About us');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services" data-offset="90">Services</a>
+                        <a class="nav-link" href="#services" data-offset="90"><?=__('Services');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#products" data-offset="90">Products</a>
+                        <a class="nav-link" href="#products" data-offset="90"><?=__('Products');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects" data-offset="90">Projects</a>
+                        <a class="nav-link" href="#projects" data-offset="90"><?=__('Projects');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" data-offset="90">Gallery</a>
+                        <a class="nav-link" href="#portfolio" data-offset="90"><?=__('Gallery');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partners" data-offset="90">Partners</a>
+                        <a class="nav-link" href="#partners" data-offset="90"><?=__('Partners');?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" data-offset="90">Contact</a>
+                        <a class="nav-link" href="#contact" data-offset="90"><?=__('Contact');?></a>
                     </li>
                 </ul>
 
@@ -83,7 +84,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="input-group md-form form-sm form-2 pl-0">
                         <input type='text' name='q' id='search' placeholder='<?php echo _x('Search', 'placeholder'); ?>'
-                               class="form-control my-0 py-1" aria-label="Search">
+                               class="form-control my-0 py-1" aria-label="<?=__('Search');?>">
                         <div class="input-group-append">
                             <button type='submit' name='submit' class='input-group-text red lighten-3' id="basic-text1">
                                 <i class="fas fa-search text-grey" aria-hidden="true"></i></button>
@@ -198,8 +199,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="services" class="mb-5">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-4 wow fadeIn" data-wow-delay="0.2s">Check
-                our services</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-4 wow fadeIn" data-wow-delay="0.2s"><?=__('Check our services');?></h3>
 
             <!-- Section description -->
             <p class="text-center grey-text mt-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor
@@ -464,7 +464,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="products" class="mb-3">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Products</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Products');?></h3>
 
             <!-- Section description -->
             <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor
@@ -525,7 +525,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -583,7 +583,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -641,7 +641,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -699,7 +699,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -757,7 +757,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -815,7 +815,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -873,7 +873,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -931,7 +931,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                     <div class="row mb-0">
 
-                                        <button class="btn btn-danger btn-sm m-auto" >Read More</button>
+                                        <button class="btn btn-danger btn-sm m-auto" ><?=__('Read more');?></button>
 
                                     </div>
 
@@ -951,7 +951,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
                 <!-- Grid row -->
                 <div class="row justify-content-center mb-4">
 
-                    <button class="btn btn-default">View all products</button>
+                    <button class="btn btn-default"><?=__('View all products');?></button>
 
                 </div>
                 <!-- Grid row -->
@@ -969,7 +969,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="projects" class="mb-3">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Projects</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Projects');?></h3>
 
             <!-- Section description -->
             <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor
@@ -1013,7 +1013,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="portfolio" class="mb-3">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Gallery</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Gallery');?></h3>
 
 
         </section>
@@ -1103,7 +1103,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="partners"  class="section pb-5 mb-5">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Partners</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Partners');?></h3>
 
             <div class="row">
                 <!-- Second column -->
@@ -1136,7 +1136,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
         <section id="contact" class="section pb-5 mb-5">
 
             <!-- Section heading -->
-            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact</h3>
+            <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Contact');?></h3>
 
             <!-- Section sescription -->
             <p class="text-center w-responsive mx-auto mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -1161,13 +1161,10 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
                             <!-- Header -->
                             <div class="form-header primary-color">
 
-                                <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+                                <h3><i class="fas fa-envelope"></i><?=__(' Write to us:');?></h3>
 
                             </div>
 
-                            <p>We'll write rarely, but only the best content.</p>
-
-                            <br>
 
                             <!-- Body -->
                             <div class="md-form">
@@ -1176,7 +1173,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                 <input type="text" id="form3" class="form-control">
 
-                                <label for="form3">Your name</label>
+                                <label for="form3"><?=__('Your name');?></label>
 
                             </div>
 
@@ -1186,17 +1183,17 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                 <input type="text" id="form2" class="form-control">
 
-                                <label for="form2">Your email</label>
+                                <label for="form2"><?=__('Your email');?></label>
 
                             </div>
 
                             <div class="md-form">
 
-                                <i class="fas fa-tag prefix"></i>
+                                <i class="fas fa-phone prefix"></i>
 
                                 <input type="text" id="form32" class="form-control">
 
-                                <label for="form32">Subject</label>
+                                <label for="form32"><?=__('Your phone');?></label>
 
                             </div>
 
@@ -1206,13 +1203,13 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                                 <textarea type="text" id="form8" class="md-textarea form-control" rows="3"></textarea>
 
-                                <label for="form8">Icon Prefix</label>
+                                <label for="form8"><?=__('Message');?></label>
 
                             </div>
 
                             <div class="text-center">
 
-                                <button class="btn btn-secondary mt-3">Submit</button>
+                                <button class="btn btn-secondary mt-3"><?=__('Submit');?></button>
 
                             </div>
 
