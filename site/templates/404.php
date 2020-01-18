@@ -1,43 +1,28 @@
-<!DOCTYPE html>
-<html lang="<?php echo _x('en', 'HTML language code'); ?>">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo $title; ?></title>
-    <meta name="description" content="<?php echo $page->summary; ?>" />
-    <link href="//fonts.googleapis.com/css?family=Lusitana:400,700|Quattrocento:400,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="<?php echo $config->urls->templates?>styles/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="<?php echo $config->urls->templates?>styles/mdb.min.css" rel="stylesheet">
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <?php
+<?php namespace ProcessWire;
 
-    // handle output of 'hreflang' link tags for multi-language
-    // this is good to do for SEO in helping search engines understand
-    // what languages your site is presented in
-    foreach($languages as $language) {
-        // if this page is not viewable in the language, skip it
-        if(!$page->viewable($language)) continue;
-        // get the http URL for this page in the given language
-        $url = $page->localHttpUrl($language);
-        // hreflang code for language uses language name from homepage
-        $hreflang = $homepage->getLanguageValue($language, 'name');
-        // output the <link> tag: note that this assumes your language names are the same as required by hreflang.
-        echo "\n\t<link rel='alternate' hreflang='$hreflang' href='$url' />";
-    }
+// basic-page.php template file
 
-    ?>
-</head>
+// Primary content is the page's body copy
+$content = $page->body;
 
-<body class="<?php if($sidebar) echo "has-sidebar"; ?>">
+// If the page has children, then render navigation to them under the body.
+// See the _func.php for the renderNav example function.
+if($page->hasChildren) {
+    $content .= renderNav($page->children);
+}
+
+// if the rootParent (section) page has more than 1 child, then render
+// section navigation in the sidebar (see _func.php for renderNavTree).
+if($page->rootParent->hasChildren > 1) {
+    $sidebar = renderNavTree($page->rootParent, 3);
+    // make any sidebar text appear after navigation
+    $sidebar .= $page->sidebar;
+}
+
+?>
+
+
+
 
 <a href="#main" class="visually-hidden element-focusable bypass-to-main"><?php echo _x('Skip to content', 'bypass'); ?></a>
 
@@ -89,7 +74,6 @@
     <button type='submit' name='submit' class='visually-hidden'><?php echo _x('Search', 'button'); ?></button>
 </form>
 
-test
 
 <main id='main'>
 
@@ -160,3 +144,4 @@ test
 </script>
 </body>
 </html>
+
