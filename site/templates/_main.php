@@ -110,7 +110,8 @@
 		<button type='submit' name='submit' class='visually-hidden'><?php echo _x('Search', 'button'); ?></button>
 	</form>
 
-
+test
+    
 	<main id='main'>
 
 		<!-- main content -->
