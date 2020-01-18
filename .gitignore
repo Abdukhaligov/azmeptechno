@@ -1,0 +1,8 @@
+.idea
+.htaccess
+index.php
+wire
+site/assets
+site/modules
+site/config.php
+site/.htaccess
