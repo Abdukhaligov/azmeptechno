@@ -96,28 +96,28 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
             <span>
 
                 <?php
-                    $c = 0;
-                    foreach($languages as $language) {
+                $c = 0;
+                foreach($languages as $language) {
 
-                        if(!$page->viewable($language)) continue; // is page viewable in this language?
+                    if(!$page->viewable($language)) continue; // is page viewable in this language?
 
-                        $url = $page->localUrl($language);
-                        $hreflang = $homepage->getLanguageValue($language, 'name');
+                    $url = $page->localUrl($language);
+                    $hreflang = $homepage->getLanguageValue($language, 'name');
 
-                        if($c == 1){
-                            echo "<span class='red-text font-bold'> / </span>";
-                        }
-                        
-                        if($language->id == $user->language->id) {
-                            echo "<a class='red-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
-
-                        } else {
-                            echo "<a class='black-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
-                        }
-
-
-                        $c++;
+                    if($c == 1){
+                        echo "<span class='red-text font-bold'> / </span>";
                     }
+
+                    if($language->id == $user->language->id) {
+                        echo "<a class='red-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
+
+                    } else {
+                        echo "<a class='black-text font-bold' hreflang='$hreflang' href='$url'>$language->title</a>";
+                    }
+
+
+                    $c++;
+                }
                 ?>
 
             </span>
@@ -995,10 +995,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
             <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Projects');?></h3>
 
             <!-- Section description -->
-            <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad
-                voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam minima
-                assumenda deleniti.</p>
+            <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s"><?=$pages->get('/projects/')->Text;?></p>
 
             <div class="row">
                 <!-- Second column -->
@@ -1006,18 +1003,15 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                     <div class="swiper-container swiper-container-projects col-md-12">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide partner">
-                                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/142_Github_logo_logos-512.png">
-                            </div>
-                            <div class="swiper-slide partner">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png">
-                            </div>
-                            <div class="swiper-slide partner">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo-ubuntu_cof-orange-hex.svg">
-                            </div>
-                            <div class="swiper-slide partner">
-                                <img src="https://www.kindpng.com/picc/m/1-12327_aws-amazon-logo-amazon-web-services-hd-png.png">
-                            </div>
+
+                            <?php foreach ($pages->get('/projects/')->images as $image):?>
+
+                                <div class="swiper-slide partner">
+                                    <img src="<?=$image->url;?>">
+                                </div>
+
+                            <?php endforeach; ?>
+
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -1056,61 +1050,16 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
                 <!-- Full width lightbox -->
                 <div class="mdb-lightbox">
 
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
+                    <?php foreach ($pages->get('/gallery/')->images as $image):?>
 
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(136).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(136).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
+                        <figure class="col-md-3">
+                            <a href="<?=$image->url;?>" data-size="1600x1067">
+                                <img src="<?=$image->url;?>" class="img-fluid z-depth-1">
+                            </a>
+                        </figure>
 
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(7).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(7).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
+                    <?php endforeach; ?>
 
-                    </figure>
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
-
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
-
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
-
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(3).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(3).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
-
-                    <figure class="col-md-3">
-                        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" data-size="1600x1067">
-                            <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg"
-                                 class="img-fluid z-depth-1">
-                        </a>
-                    </figure>
                 </div>
                 <!-- Full width lightbox -->
 
@@ -1162,11 +1111,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
             <h3 class="text-center text-uppercase font-weight-bold mb-5 mt-5 pt-5 wow fadeIn" data-wow-delay="0.2s"><?=__('Contact');?></h3>
 
             <!-- Section sescription -->
-            <p class="text-center w-responsive mx-auto mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-                Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
-
-                porro a pariatur accusamus veniam.</p>
+            <p class="text-center w-responsive mx-auto mb-5 pb-5"><?=$pages->get('/contacts/')->Text;?></p>
 
 
             <div class="row">
@@ -1250,9 +1195,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
                     <!-- Google map -->
                     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 400px">
 
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.717285440294!2d49.84756841571897!3d40.370792666355435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dad090d9181%3A0x2b88981f2bd87785!2z0J_QsNGA0Log0JHRg9C70YzQstCw0YA!5e0!3m2!1sru!2s!4v1579279671891!5m2!1sru!2s" frameborder="0"
-                                style="border:0" allowfullscreen></iframe>
+                        <?=$pages->get('/contacts/')->gmap;?>
 
                     </div>
 
@@ -1265,9 +1208,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                             <a class=" mb-2 btn-floating btn-secondary"><i class="fas fa-map-marker-alt"></i></a>
 
-                            <p>New York, NY 10012</p>
-
-                            <p>United States</p>
+                            <?=$pages->get('/contacts/')->Address;?>
 
                         </div>
 
@@ -1275,9 +1216,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                             <a class="mb-2 btn-floating btn-secondary"><i class="fas fa-phone"></i></a>
 
-                            <p>+ 01 234 567 89</p>
-
-                            <p>Mon - Fri, 8:00-22:00</p>
+                            <?=$pages->get('/contacts/')->Phone;?>
 
                         </div>
 
@@ -1285,9 +1224,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
 
                             <a class="mb-2 btn-floating btn-secondary"><i class="fas fa-envelope"></i></a>
 
-                            <p>info@gmail.com</p>
-
-                            <p>sale@gmail.com</p>
+                            <?=$pages->get('/contacts/')->Email_Address;?>
 
                         </div>
 
