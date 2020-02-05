@@ -37,7 +37,7 @@
 
     ?>
 </head>
-
+asdasd
 <body class="<?php if($sidebar) echo "has-sidebar"; ?>">
 
 <!-- Navigation & Intro -->
