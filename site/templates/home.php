@@ -1347,7 +1347,7 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
     // initialize lightbox
     $(function () {
 
-        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        $("#mdb-lightbox-ui").load("<?php echo $config->urls->templates?>/mdb-addons/mdb-lightbox-ui.html");
     });
 
     $('.navbar-collapse a').click(function () {
@@ -1359,5 +1359,6 @@ background: linear-gradient(270deg, rgba(255,255,240,1) 0%, rgba(215,215,215,1) 
     new WOW().init();
 
 </script>
+
 </body>
 </html>
