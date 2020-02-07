@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0997ea-8a42-4dfb-8ded-7d00bb96e864" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/azmeptechno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/azmeptechno.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/templates/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/templates/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,6 +71,15 @@
       <updated>1579277252559</updated>
       <workItem from="1579277256101" duration="12927000" />
       <workItem from="1579350166960" duration="13103000" />
+      <workItem from="1580825105035" duration="224000" />
+      <workItem from="1580879325341" duration="1185000" />
+      <workItem from="1580883135022" duration="595000" />
+      <workItem from="1580885788236" duration="783000" />
+      <workItem from="1580896991204" duration="87000" />
+      <workItem from="1580897122028" duration="20000" />
+      <workItem from="1580897164905" duration="1496000" />
+      <workItem from="1580910302101" duration="13000" />
+      <workItem from="1581056580440" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <created>1579298310401</created>
@@ -141,6 +151,10 @@
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
     <state x="623" y="7" width="848" height="1049" key="CommitChangelistDialog2/1996.103.1290.768/-1858.7.1858.1080/76.0.1844.1080@76.0.1844.1080" timestamp="1579385621917" />
+    <state x="780" y="296" key="FileChooserDialogImpl" timestamp="1580910312978">
+      <screen x="81" y="0" width="1839" height="1080" />
+    </state>
+    <state x="780" y="296" key="FileChooserDialogImpl/-1285.487.1285.768/81.0.1839.1080@81.0.1839.1080" timestamp="1580910312978" />
     <state x="832" y="464" key="NewPhpFileDialog" timestamp="1579384229823">
       <screen x="76" y="0" width="1844" height="1080" />
     </state>
